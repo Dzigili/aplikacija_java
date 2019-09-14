@@ -7,8 +7,11 @@ public class Casopis extends Spis {
 //    private int mesec;
 //    private int godina;
 
-    public Casopis(int datumIzdanja, String naslov, int brStrana) {
+
+    public Casopis(int datumIzdanja, int mesec, int godina, String naslov, int brStrana) {
         this.datumIzdanja = datumIzdanja;
+//        this.mesec = mesec;
+//        this.godina = godina;
         super.naslov = naslov;
         super.brStrana = brStrana;
     }
