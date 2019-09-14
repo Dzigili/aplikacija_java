@@ -1,14 +1,19 @@
 package biblioteka;
 
-public class Spis {
+public abstract class Spis {
+
     protected String naslov;
-    protected int brStrana;
 
-    public String getNaslov() {
-        return naslov;
+    protected int brojStrana;
+
+    public String vratiNaslov() {
+        return this.naslov;
     }
 
-    public int getBrStrana() {
-        return brStrana;
+    public int vratiBrojStrana() {
+        return this.brojStrana;
     }
+
+    @Override
+    public abstract String toString();
 }

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1282284e-f83e-417e-ab63-b01a479df07d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/biblioteka/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/biblioteka/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/biblioteka/Biblioteka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/biblioteka/Biblioteka.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/biblioteka/Casopis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/biblioteka/Casopis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/biblioteka/Citalac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/biblioteka/Citalac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/biblioteka/Knjiga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/biblioteka/Knjiga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/biblioteka/Polica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/biblioteka/Polica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/biblioteka/Spis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/biblioteka/Spis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +57,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

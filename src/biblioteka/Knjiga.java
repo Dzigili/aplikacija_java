@@ -1,32 +1,32 @@
 package biblioteka;
 
 public class Knjiga extends Spis {
-    private String autor;
+    private Autor autor;
     private String zanr;
     private int godinaIzdanja;
 
-    public Knjiga(String autor, String zanr, int godinaIzdanja, String naslov, int brStrana) {
+    public Knjiga(Autor autor, String zanr, int godinaIzdanja, String naslov, int brojStrana) {
         this.autor = autor;
         this.zanr = zanr;
         this.godinaIzdanja = godinaIzdanja;
         super.naslov = naslov;
-        super.brStrana = brStrana;
+        super.brojStrana = brojStrana;
     }
 
-    public String getAutor() {
-        return autor;
+    public Autor vratiAutora() {
+        return this.autor;
     }
 
-    public String getZanr() {
-        return zanr;
+    public String vratiZanr() {
+        return this.zanr;
     }
 
-    public int getGodinaIzdanja() {
-        return godinaIzdanja;
+    public int vratiGodinaIzdanju() {
+        return this.godinaIzdanja;
     }
 
     @Override
     public String toString() {
-        return naslov + ", " + autor + ", " + godinaIzdanja + ", " + zanr;
+        return this.naslov + ", " + this.autor + ", " + this.godinaIzdanja + ", " + this.zanr;
     }
 }
