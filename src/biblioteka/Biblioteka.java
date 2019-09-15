@@ -85,7 +85,7 @@ public class Biblioteka {
         for(Casopis temp: this.casopisi) {
             izlaz += temp.toString() + "\n";
         }
-        izlaz += "*****************************" + "\n";
+        izlaz += "*****************************" + "\n\n";
         for(Citalac temp: this.citaoaci) {
             izlaz += temp.toString() + "\n";
         }
